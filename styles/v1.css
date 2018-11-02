@@ -1,0 +1,189 @@
+
+.text {
+  padding: 20px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  background-color: #EAEBEF;
+}
+
+/*header*/
+nav li {
+  display: inline;
+  padding: 15px;
+}
+
+
+/*code from W3schools.com */
+nav {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #3b5998;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  background-color: #3b5998;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #3C5E9E;
+  color: white;
+}
+
+
+
+h1 {
+  color: #3b5998;
+  padding-top: 40px;
+  margin-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.home-page {
+  color: #3b5998 !important;
+  text-decoration: none;
+}
+
+.home-page:hover {
+  color: #afbdd4 !important;
+  text-decoration: none;
+}
+
+p, .projects {
+  padding: 22px;
+  background-color: #ffffff;
+  border: 0.1px solid #afbdd4;
+  line-height: 25px;
+
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #afbdd4;
+}
+
+a:active {
+  color: #afbdd4;
+  font-weight: bold;
+
+}
+
+figcaption {
+  font-size: 13px;
+  font-style: italic;
+  color: gray;
+  text-align: center;
+}
+
+#tagline {
+  font-size: 15px;
+  font-style: italic;
+  color: gray;
+  background-color: #EAEBEF;
+  padding-top: 0px;
+  border: none;
+
+}
+
+.trans {
+  color: gray;
+}
+
+.link {
+  color: black !important;
+}
+
+.small_img {
+  width: 400px;
+}
+
+blockquote {
+  font-style: italic;
+  color: gray;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  flex-grow: 1;
+  width: 40px;
+  height: 100%;
+  background-color: white;
+  margin-right: 10px;
+  border: 0.1px solid #afbdd4 !important;
+
+}
+
+.main_content {
+  flex-grow: 7;
+  width: 30px;
+  height: 100%;
+}
+
+.no_bold {
+  font-weight: normal;
+}
+
+.small_text {
+  padding: 10px;
+  line-height: 18px;
+  font-size: 10px;
+  background-color: white;
+}
+
+.sidebar_links {
+  width: 180px;
+  float: left;
+  color: #afbdd4 !important;
+  padding-right: 10px;
+  margin: 10px;
+  text-decoration: none;
+
+}
+
+.sidebar_links:hover {
+  color: #3b5998 !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h3 {
+  text-align: center;
+}
+
+.projects li {
+  margin: 10px;
+}
+
+footer {
+  padding-top: 22px;
+}
