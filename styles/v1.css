@@ -254,6 +254,12 @@ blockquote {
   background-color: white;
 }
 
+.font-small {
+  font-size: 20px;
+  text-align: center;
+
+}
+
 .sidebar_links {
   width: 180px;
   float: left;
