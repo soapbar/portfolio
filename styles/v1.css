@@ -43,9 +43,9 @@ nav {
   top: 0;
   width: 100%;
   background-color: black;
+  margin-right: 20px;
 
 }
-
 
 nav a {
   float: right;
@@ -76,6 +76,11 @@ h1 {
   margin-top: 20px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 4vw;
 }
 
 .home-page {
@@ -128,10 +133,22 @@ figcaption {
   text-align: center;
   margin-top: 150px;
   color: black;
+  line-height: 40px;
 
   padding-top: 0px;
   border: none;
 
+}
+
+#tagline-projects {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0px;
+  color: black;
+  line-height: 40px;
+
+  padding-top: 0px;
+  border: none;
 }
 
 .centered {
@@ -157,10 +174,13 @@ figcaption {
   width: 400px;
 }
 
+
+
 blockquote {
   font-style: italic;
   color: gray;
 }
+
 
 .container {
   display: flex;
