@@ -290,6 +290,15 @@ h3 {
   padding-bottom: 7px;
 }
 
+.about-text {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+em {
+  font-size: 20px;
+}
+
 footer {
   align-content: center;
   padding-top: 32px;
