@@ -363,6 +363,15 @@ footer li {
   display: none;
 }
 
+
+/* tablet devices */
+@media (min-width: 700px) and (max-width: 1024px) {
+  .icons-wrap {
+    margin-left: 35%;
+  }
+
+}
+
 /*mobile devices*/
 @media screen and (max-width: 700px) {
   /*header*/
