@@ -9,6 +9,7 @@ body {
   background-color: white;
 }
 
+
 #main_photo {
   width: 100%;
   display: block;
@@ -191,6 +192,10 @@ blockquote {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 40px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+
 }
 
 .sidebar {
@@ -206,7 +211,7 @@ blockquote {
   font-weight: 100;
   line-height: 20px;
   padding-left: 5%;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .thin, p, li {
@@ -215,6 +220,7 @@ blockquote {
 
 .regular {
   font-weight: 500;
+  padding: 20px;
 }
 
 .link-black {
@@ -241,6 +247,7 @@ blockquote {
   flex-grow: 7;
   width: 30px;
   height: 100%;
+
 }
 
 .no_bold {
