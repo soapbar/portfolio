@@ -6,7 +6,7 @@
 body {
   font-family: sans-serif;
   margin: 0 auto;
-  background-color: white;
+  background-color: F8F8F8; /* main background color */
 }
 
 
@@ -91,7 +91,7 @@ h1 {
 }
 
 .home-page {
-  color: #3b5998 !important;
+  color: black !important;
   text-decoration: none;
   font-weight: 570;
 
